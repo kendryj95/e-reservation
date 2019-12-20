@@ -92,7 +92,7 @@ public class ClienteService {
 	 * @return
 	 */
 	public Cliente findByEmailAccount(String email) {
-		return this.findByEmailAccount(email);
+		return this.clienteRepository.findByEmailAccount(email);
 	}
 
 }
